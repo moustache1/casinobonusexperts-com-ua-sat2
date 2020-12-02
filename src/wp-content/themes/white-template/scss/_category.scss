@@ -1,0 +1,23 @@
+.custom_breadcrumbs span{
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Gotham Pro', sans-serif;
+    &:hover{
+        color: #20F575;
+        cursor: pointer;
+    }
+    &.kb_title{
+        color: #fff;
+    }
+}
+.game-items-cat .games-block {
+    margin-top: 0;
+    & h2{
+    display: none;
+    }
+    & .btn-primary{
+        display: none;
+    }
+}

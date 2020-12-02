@@ -1,0 +1,103 @@
+.games__horizontal{
+    &-item{
+    width: 100%;
+    height: 120px;
+    height: 100%;
+    background: #131722;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    &:nth-child(n+2){
+        margin-top: 18px;
+    }
+    &:hover{
+        border: 2px solid #20F575;
+        box-shadow: 0px 12px 20px rgba(41, 13, 98, 0.15);
+        cursor: pointer;
+        transition: 0.2s ease-in-out;
+        }
+    }
+    &-number{
+        font-family: 'Gotham Pro', sans-serif;
+        font-weight: 900;
+        color: #fff;
+        font-size: 16px;
+        line-height: 16px;
+        width: 6%;
+        text-align: center;
+        &:hover{
+            background-color: #20F575;
+        }
+    }
+    &-img{
+        margin-bottom: -6px;
+    }
+    &-img img{
+        width: 200px;
+        height: 120px;
+        margin-bottom: 1px;
+    }
+    &-title{
+        margin-left: 30px;
+        margin-top: 7px;
+        font-family: 'Gotham Pro', sans-serif;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 24px;
+        letter-spacing: 0.04em;
+        color: #fff;
+        width: 270px;
+        &:hover{
+            color: #20F575;
+        }
+    }
+    &-detail{
+        text-align: left;
+        margin: 0 30px;
+        width: 220px;
+        display: flex;
+        flex-direction: column;
+        &-top{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        &-bottom{
+            margin-top: 10px;
+        }
+    }
+    &-price{
+        color: #20F575;
+        font-family: 'Gotham Pro', sans-serif;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 24px;
+    }
+    &-percent{
+        margin-left: 20px;
+        font-family: 'Gotham Pro', sans-serif;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 24px;
+        width: 90px;
+        color: #fff;
+    }
+    &-freespin{
+        font-family: 'Gotham Pro', sans-serif;
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 0.04em;
+        color: #fff;
+    }
+    &-btn .btn-main{
+        padding: 11px 80px 10px 80px;
+        @media screen and (max-width: 1172px){
+            display: block;
+        }
+        & a{
+            color: #0D0D0D;
+        }
+    }
+}

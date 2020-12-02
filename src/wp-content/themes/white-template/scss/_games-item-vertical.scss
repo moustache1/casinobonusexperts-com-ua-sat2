@@ -1,0 +1,84 @@
+.games__vertical{
+    width: 270px;
+    height: 440px;
+    background: #131722;
+    box-shadow: 0px 4px 4px 4px rgba(41, 13, 98, 0.15);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-top: none;
+    &:hover{
+        border: 3px solid #20F575;
+        transition: .4s;
+        border-top: none;
+        cursor: pointer;
+    }
+    & .slick-slide{
+        height: 440px;
+        width: 270px;
+        & .slick-current .slick-active{
+            height: 440px;
+            width: 270px;
+        }
+    }
+    &-img img{
+        border-radius: 8px;
+        width: 264px !important;
+        height: 120px;
+    }
+    &-title{
+        margin-top: 30px;
+        font-family: 'Gotham Pro', sans-serif;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 24px;
+        max-height: 48px;
+        letter-spacing: 0.04em;
+        color: #fff;
+        width: 270px;
+    }
+    &-price{
+        margin-top: 30px;
+        color: #20F575;
+        font-family: 'Gotham Pro', sans-serif;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 24px;
+        height: 48px;
+    }
+    &-percent{
+        margin-top: 20px;
+        color: #20F575;
+        font-family: 'Gotham Pro', sans-serif;
+        font-weight: 900;
+        font-family: 'Gotham Pro', sans-serif;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 24px;
+        width: 90px;
+        height: 48px;
+        & span{
+            color: #fff;
+        }
+    }
+    &-freespin{
+        margin-top: 30px;
+        font-family: 'Gotham Pro', sans-serif;
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 14px;
+        height: 28px;
+        letter-spacing: 0.04em;
+        color: #fff;
+    }
+    & a.btn-main {
+        margin-top: 20px;
+        color: #131722;
+    }
+}
+.games__vertical.slick-slide.slick-active{
+    height: 440px !important;
+    width: 270px !important;
+}

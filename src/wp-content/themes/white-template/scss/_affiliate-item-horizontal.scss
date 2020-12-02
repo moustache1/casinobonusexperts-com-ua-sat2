@@ -1,0 +1,119 @@
+.affiliate__horizontal{
+    &-item{
+    width: 100%;
+    height: 120px;
+    height: 100%;
+    background: #131722;
+    display: flex;
+    flex-direction: flex-start;
+    align-items: center;
+    text-align: center;
+    &:nth-child(n+2){
+        margin-top: 18px;
+    }
+    &:hover{
+        border: 2px solid #20F575;
+        box-shadow: 0px 12px 20px rgba(41, 13, 98, 0.15);
+        border-radius: 8px;
+        transition: 0.2s ease-in-out;
+        }
+    }
+    &-number{
+        font-family: 'Gotham Pro', sans-serif;
+        font-weight: 900;
+        color: #fff;
+        font-size: 16px;
+        line-height: 16px;
+        width: 6%;
+    }
+    &-img{
+        margin-bottom: -6px;
+    }
+    &-img img{
+        width: 200px;
+        height: 120px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    &-about{
+        text-align: left;
+        margin-left: 30px;
+        width: 195px;
+    }
+    &-stars{
+        font-family: 'Gotham Pro', sans-serif;
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 18px;
+        color: #20F575;
+    }
+    &-rating{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+    &-mark{
+        padding-top: 4px;
+        margin-left: 10px;
+        color: #9099AE;
+        font-family: 'Gotham Pro', sans-serif;
+        font-size: 16px;
+        font-weight: 900;
+    }
+    &-title{
+        margin-top: 7px;
+        font-family: 'Gotham Pro', sans-serif;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 24px;
+        color: #20F575;
+        & span{
+            color: #fff;
+        }
+    }
+    &-detail{
+        margin: 0 30px;
+        text-align: left;
+        width: 270px;
+    }
+    &-price{
+        color: #20F575;
+        margin-top: 18px;
+        font-family: 'Gotham Pro', sans-serif;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 24px;
+    }
+    &-descr{
+        color: #20F575;
+        font-family: 'Gotham Pro', sans-serif;
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 21px;
+        margin-bottom: 18px;
+        max-width: 270px;
+        & span{
+            color: #fff;
+        }
+    }
+    &-read{
+        margin-top: 10px;
+        color: #20F575;
+        font-family: 'Gotham Pro', sans-serif;
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 21px;
+        & a{
+            color: #20F575;
+        }
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    &-btn a{
+        color: #0D0D0D;
+    }
+}
